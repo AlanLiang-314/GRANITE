@@ -1,0 +1,12 @@
+uv run -m exp.experiment_8 --attack_prop bright --attack_dataset Cifar10 --client_dataset Cifar10 --loader_type testloader
+uv run -m exp.experiment_8 --attack_prop bright --attack_dataset Cifar10 --client_dataset Food101 --loader_type testloader
+uv run -m exp.experiment_8 --attack_prop bright --attack_dataset Cifar10 --client_dataset TinyImageNet --loader_type testloader
+uv run -m exp.experiment_8 --attack_prop bright --attack_dataset Cifar100 --client_dataset Cifar100 --loader_type testloader
+uv run -m exp.experiment_8 --attack_prop bright --attack_dataset Cifar100 --client_dataset Food101 --loader_type testloader
+uv run -m exp.experiment_8 --attack_prop bright --attack_dataset Cifar100 --client_dataset TinyImageNet --loader_type testloader
+uv run -m exp.experiment_8 --attack_prop bright --attack_dataset Cifar10 --client_dataset Cifar10 --loader_type randomloader
+uv run -m exp.experiment_8 --attack_prop bright --attack_dataset Cifar10 --client_dataset Food101 --loader_type randomloader
+uv run -m exp.experiment_8 --attack_prop bright --attack_dataset Cifar10 --client_dataset TinyImageNet --loader_type randomloader
+uv run -m exp.experiment_8 --attack_prop bright --attack_dataset Cifar100 --client_dataset Cifar100 --loader_type randomloader
+uv run -m exp.experiment_8 --attack_prop bright --attack_dataset Cifar100 --client_dataset Food101 --loader_type randomloader
+uv run -m exp.experiment_8 --attack_prop bright --attack_dataset Cifar100 --client_dataset TinyImageNet --loader_type randomloader
