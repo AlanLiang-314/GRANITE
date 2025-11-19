@@ -1,5 +1,3 @@
-# Note: The `weights` and `seer_weights` folders are not fully uploaded yet. Please check back later for the complete pretrained checkpoints.
-
 # Code for IEEE ICC 2026 Paper Submission "GRANITE: Gradient Norm Inspection Technique for Malicious Server Detection in Federated Learning"
 
 ![](assets/framework.png)
@@ -28,7 +26,15 @@ source .venv/bin/activate
 uv pip sync requirements.txt
 ```
 
-download the pretrained model weights into the `weights` and `seer_weights` folders.
+### Download Pretrained Model Weights
+Before running experiments, download the pretrained model weights from Hugging Face. Run the following commands from the repository root directory:
+```bash
+pip install huggingface_hub
+huggingface-cli download Yue-2003/GRANITE \
+    --repo-type model \
+    --local-dir ./
+```
+This will download the pretrained model weights into the `weights` and `seer_weights` folders.
 
 ## Reproducing Figures and Tables (Using Pre-computed Results)
 All necessary result files are already prepared in results. To reproduce the paper figures and tables, simply run the Jupyter notebook plot.ipynb:
