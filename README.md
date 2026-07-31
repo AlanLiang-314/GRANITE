@@ -1,4 +1,4 @@
-# Code for IEEE ICC 2026 Paper Submission "GRANITE: Gradient Norm Inspection Technique for Malicious Server Detection in Federated Learning"
+# Code for IEEE GLOBECOM 2026 Paper Submission "Proactive Gradient Norm Inspection for Malicious Server Detection in Federated Learning"
 
 ![](assets/framework.png)
 
